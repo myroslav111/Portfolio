@@ -1,6 +1,7 @@
 import React from 'react';
 import './navbar.scss';
-import { Link, BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+// import { Link, BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Link, HashRouter as Router, Route, Routes } from 'react-router-dom';
 import About from '../../pages/about-me/About';
 import Projects from '../../pages/projects/Projects';
 import MainWrapper from '../../pages/main/Main.wrapper';
