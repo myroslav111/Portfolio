@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/POTFOLIO/static/css/main.3f7a64c0.css",
+    "main.js": "/POTFOLIO/static/js/main.fc0af10d.js",
+    "index.html": "/POTFOLIO/index.html",
+    "static/media/getFetch.cjs": "/POTFOLIO/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.3f7a64c0.css.map": "/POTFOLIO/static/css/main.3f7a64c0.css.map",
+    "main.fc0af10d.js.map": "/POTFOLIO/static/js/main.fc0af10d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f7a64c0.css",
+    "static/js/main.fc0af10d.js"
+  ]
+}
