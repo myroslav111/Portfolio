@@ -16,7 +16,7 @@ const Socials = () => {
           </a>
           <a
             className="social__item"
-            href="tel:+380683396082"
+            href="tel:+380500172671"
             target={'_blanc'}
           >
             <Icon className="icon" icon="jam:viber" />
