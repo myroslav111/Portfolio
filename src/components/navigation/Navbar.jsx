@@ -12,7 +12,7 @@ const Navbar = () => {
   const { t } = useTranslation();
   return (
     <>
-      <Router basename="/Portfolio/">
+      <Router>
         {/* Navigation */}
 
         <div className="navigation">
