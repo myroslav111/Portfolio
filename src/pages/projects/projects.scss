@@ -1,0 +1,72 @@
+@import '../../styles/index';
+
+.projects {
+  border-bottom: 1px solid var(--text);
+  border-top: 1px solid var(--text);
+
+  &__wrapper {
+    // padding: calc(5px + 48 * (100vw / 1440));
+    padding: calc(5px + 50 * (100vw / 1200));
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.project {
+  &__title {
+    font-size: calc(13px + 10 * (100vw / 1200));
+    font-weight: 500;
+    margin-bottom: calc(10px + 10 * (100vw / 1200));
+    &-href {
+      color: var(--text);
+    }
+
+    // &:hover {
+    //   color: var(--hover);
+    // }
+  }
+  &__play {
+    display: block;
+    &-title {
+      width: fit-content;
+      margin: 0 auto;
+      font-size: calc(30px + 30 * (100vw / 1200));
+      color: rgba(255, 255, 255, 0.5);
+      // text-align: center;
+      -webkit-text-stroke: 1px black;
+    }
+  }
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  width: 85%;
+  height: 85%;
+}
+.project__exemples {
+  display: flex;
+  justify-content: space-around;
+}
+@media screen and (max-width: 900px) {
+  // &__exemples1{}
+  .project__exemples2 {
+    display: none;
+  }
+  .project__exemples3 {
+    display: none;
+  }
+  .project__exemples4 {
+    width: 300px;
+    height: 200px;
+  }
+}

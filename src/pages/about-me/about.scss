@@ -1,0 +1,75 @@
+@import "../../styles/index";
+
+.about {
+  border-bottom: 1px solid var(--text);
+  font-size: calc(16px + 5 * (100vw / 1440));
+  line-height: 26px;
+  font-weight: 500;
+  border-top: 1px solid var(--text);
+  user-select: none;
+  &__container {
+    padding: calc(5px + 48 * (100vw / 1440));
+    max-width: $maxWidthContainer;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.about__hello,
+.about__education {
+  margin-bottom: calc(10px + 5 * (100vw / 1440));
+}
+
+// education
+
+.education {
+  margin-top: calc(15px + 20 * (100vw / 1440));
+  opacity: 0;
+}
+
+// skills
+.list__skills-title {
+  opacity: 0;
+}
+
+.list__skills {
+  margin-top: calc(15px + 20 * (100vw / 1440));
+  list-style: square;
+  padding-left: calc(15px + 10 * (100vw / 1440));
+}
+
+.skills {
+  transform: translate(-110%, 0px);
+}
+
+.list__skills li:first-child {
+  margin-top: calc(10px + 5 * (100vw / 1440));
+}
+
+// languages
+.list__languages {
+  opacity: 0;
+  margin-top: calc(15px + 20 * (100vw / 1440));
+  display: inline-block;
+  text-align: left;
+  list-style: none;
+  &-container {
+    text-align: center;
+  }
+}
+
+.list__languages li:first-child {
+  margin-top: calc(10px + 5 * (100vw / 1440));
+}
+
+// icons
+.icon__about {
+  font-size: calc(25px + 5 * (100vw / 1440));
+  transition: all 0.8s ease 0s;
+  vertical-align: middle;
+
+  &:hover {
+    transform: scale(1.5, 1.5);
+    transition: all 0.5s ease 0s;
+  }
+}

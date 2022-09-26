@@ -1,0 +1,175 @@
+// page about
+
+.about__hello {
+  animation-name: pop-up-greetings;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes pop-up-greetings {
+  0% {
+    opacity: 0;
+    transform: translate(0px, 80%);
+  }
+  100% {
+    transform: translate(0px, 0px);
+    opacity: 1;
+  }
+}
+
+.education {
+  animation-delay: 800ms;
+  animation-name: pop-up-education;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes pop-up-education {
+  0% {
+    opacity: 0;
+    transform: translate(0px, 80%);
+  }
+  100% {
+    transform: translate(0px, 0px);
+    opacity: 1;
+  }
+}
+
+// skills
+
+.list__skills-title {
+  animation-name: appearance;
+  animation-delay: 1.6s;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+}
+
+@keyframes appearance {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.skill__1 {
+  animation-delay: 2.5s;
+  animation-name: outgoing;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.skill__2 {
+  animation-delay: 2.6s;
+  animation-name: outgoing;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.skill__3 {
+  animation-delay: 2.7s;
+  animation-name: outgoing;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.skill__4 {
+  animation-delay: 2.8s;
+  animation-name: outgoing;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.skill__5 {
+  animation-delay: 2.9s;
+  animation-name: outgoing;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.skill__6 {
+  animation-delay: 3s;
+  animation-name: outgoing;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.skill__7 {
+  animation-delay: 3.1s;
+  animation-name: outgoing;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.skill__8 {
+  animation-delay: 3.2s;
+  animation-name: outgoing;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.skill__9 {
+  animation-delay: 3.3s;
+  animation-name: outgoing;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.skill__10 {
+  animation-delay: 3.4s;
+  animation-name: outgoing;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.skill__11 {
+  animation-delay: 3.5s;
+  animation-name: outgoing;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes outgoing {
+  0% {
+    transform: translate(-110%, 0px);
+  }
+  100% {
+    transform: translate(110%, 0px);
+  }
+}
+
+// languages
+
+.list__languages {
+  animation-name: appearance-list;
+  animation-delay: 4.5s;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+}
+
+@keyframes appearance-list {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+// let's play
+
+.project__play-title {
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #2c6cf5, 0 0 40px #2c6cf5, 0 0 50px #2c6cf5, 0 0 60px #2c6cf5, 0 0 70px #2c6cf5;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #4dfffc, 0 0 40px #4dfffc, 0 0 50px #4dfffc, 0 0 60px #4dfffc, 0 0 70px #4dfffc, 0 0 80px #4dfffc;
+  }
+}

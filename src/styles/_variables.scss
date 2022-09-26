@@ -1,0 +1,37 @@
+// colors
+// $c-hover: #0178bf;
+// $c-background: #000000;
+// $c-text: #ffffff;
+// dark theme
+
+html[data-theme='dark'] {
+  background: var(--background);
+  --hover: #0178bf;
+  --background: #000000;
+  --text: #ffffff;
+}
+
+// light theme
+
+html[data-theme='light'] {
+  background: var(--background);
+  --hover: #000000;
+  --background: #ffffff;
+  --text: #0178bf;
+}
+
+// $gradient: linear-gradient(to right, #ff00cc, #333399);
+// $mainColor: #00bcd4;
+
+// fonts
+
+$ff-baze: 'Caveat', cursive;
+$fz-baze: 16px;
+
+$minWidth: 320px;
+$maxWidth: 1440px;
+$maxWidthContainer: 1270px;
+$md1: $maxWidthContainer + 12;
+$md2: 991.98;
+$md3: 767.98;
+$md4: 479.98;

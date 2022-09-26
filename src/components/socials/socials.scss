@@ -1,0 +1,38 @@
+@import '../../styles/index';
+
+.social {
+  // border-top: 1px solid var(--text);
+  // height: 100px;
+  height: 12vh;
+  width: 100%;
+  // padding-top: calc(20px + 15 * (100vw / 1440));
+  padding-top: 34px;
+  &__wrapper {
+    // vertical-align: middle;
+    margin: 0 auto;
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+// .container__social {
+// }
+
+.icon {
+  font-size: calc(20px + 5 * (100vw / 1440));
+  color: var(--text);
+  transition: all 0.8s ease 0s;
+
+  &:hover {
+    color: var(--hover);
+    transform: scale(1.5, 1.5);
+    transition: all 0.5s ease 0s;
+  }
+}
+
+// .icon_git {
+//   height: 12vh;
+//   // width: 100%;
+// }
