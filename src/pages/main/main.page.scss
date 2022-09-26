@@ -1,4 +1,4 @@
-@import "../../styles/index";
+@import '../../styles/index';
 
 .title {
   font-weight: 700;
@@ -18,7 +18,7 @@
 .right-part {
   height: 60%;
   margin-right: calc(10px + 40 * (100vw / 1200));
-  @media (max-width: $md2+px) {
+  @media (max-width: ($md2+px)) {
     height: 66%;
   }
 }

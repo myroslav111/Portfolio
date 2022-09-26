@@ -8,7 +8,7 @@ const resources = {
   en: {
     translation: {
       name: 'Kozar Myroslav',
-      specialization: 'Front-End developer / Back-End in progress)',
+      specialization: 'Front-End developer / Back-End in progress',
       about: 'About Me',
       sites: 'My Sites',
       en: 'EN',
@@ -58,7 +58,7 @@ const resources = {
   ua: {
     translation: {
       name: 'Козар Мирослав',
-      specialization: 'Фронт-Енд розробник / Бек-Енд в процессі вивчення)',
+      specialization: 'Фронт-Енд розробник / Бек-Енд в процессі вивчення',
       about: 'Про мене',
       sites: 'Мої проекти',
       en: 'Ан',
