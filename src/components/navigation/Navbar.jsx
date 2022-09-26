@@ -1,18 +1,18 @@
-import React from "react";
-import "./navbar.scss";
-import { Link, BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import About from "../../pages/about-me/About";
-import Projects from "../../pages/projects/Projects";
-import MainWrapper from "../../pages/main/Main.wrapper";
-import { Icon } from "@iconify/react";
-import Button from "../button/Button";
-import { useTranslation } from "react-i18next";
+import React from 'react';
+import './navbar.scss';
+import { Link, BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import About from '../../pages/about-me/About';
+import Projects from '../../pages/projects/Projects';
+import MainWrapper from '../../pages/main/Main.wrapper';
+import { Icon } from '@iconify/react';
+import Button from '../button/Button';
+import { useTranslation } from 'react-i18next';
 
 const Navbar = () => {
   const { t } = useTranslation();
   return (
     <>
-      <Router>
+      <Router basename="/Portfolio/">
         {/* Navigation */}
 
         <div className="navigation">
@@ -21,11 +21,11 @@ const Navbar = () => {
           </Link>
           <br />
           <Link to="/about" className="navigation__item">
-            {t("about")}
+            {t('about')}
           </Link>
           <br />
           <Link to="/projects" className="navigation__item">
-            {t("sites")}
+            {t('sites')}
           </Link>
           <br />
           <Button />
