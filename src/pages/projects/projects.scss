@@ -2,7 +2,8 @@
 
 .projects {
   border-bottom: 1px solid var(--text);
-  border-top: 1px solid var(--text);
+  // border-top: 1px solid var(--text);
+  padding: 0 5px 0 5px;
 
   &__wrapper {
     // padding: calc(5px + 48 * (100vw / 1440));

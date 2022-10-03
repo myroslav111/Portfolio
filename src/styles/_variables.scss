@@ -9,6 +9,9 @@ html[data-theme='dark'] {
   --hover: #0178bf;
   --background: #000000;
   --text: #ffffff;
+  --shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px,
+    rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px,
+    rgba(240, 46, 170, 0.05) 0px 25px;
 }
 
 // light theme
@@ -18,6 +21,8 @@ html[data-theme='light'] {
   --hover: #000000;
   --background: #ffffff;
   --text: #0178bf;
+  --shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+    rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 // $gradient: linear-gradient(to right, #ff00cc, #333399);

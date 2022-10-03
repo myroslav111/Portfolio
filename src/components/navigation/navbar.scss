@@ -1,15 +1,16 @@
-@import "../../styles/index";
+@import '../../styles/index';
 
 .navigation {
   width: 100%;
   // height: calc(60px + 10 * (100vw / 1200));
-  height: 10vh;
+  // height: 10vh;
   margin: 0px auto;
   display: flex;
   justify-content: space-around;
   flex-wrap: nowrap;
-  max-width: 1200px;
+  // max-width: 1200px;
 
+  box-shadow: var(--shadow);
   &__item {
     display: flex;
     align-items: center;

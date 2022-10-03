@@ -1,11 +1,11 @@
-@import "../../styles/index";
+@import '../../styles/index';
 
 .about {
   border-bottom: 1px solid var(--text);
   font-size: calc(16px + 5 * (100vw / 1440));
   line-height: 26px;
   font-weight: 500;
-  border-top: 1px solid var(--text);
+  // border-top: 1px solid var(--text);
   user-select: none;
   &__container {
     padding: calc(5px + 48 * (100vw / 1440));

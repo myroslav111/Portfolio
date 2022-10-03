@@ -10,7 +10,7 @@ const Projects = () => {
         <div className="projects__wrapper">
           <ol>
             <li>
-              {/* project 4 */}
+              {/* project 1 */}
               <div className="project">
                 <div className="project__title">
                   <a
@@ -51,7 +51,7 @@ const Projects = () => {
               </div>
             </li>
             <li>
-              {/* project 1 */}
+              {/* project 2 */}
               <div className="project">
                 <div className="project__title">
                   <a
@@ -69,7 +69,33 @@ const Projects = () => {
                       width="700px"
                       height="400px"
                       alt="divise"
-                      src="https://user-images.githubusercontent.com/92175747/185325788-afbe2f2d-1f16-468c-9cff-eb333a6721c9.png"
+                      src={require('./images/Screenshot_1.webp')}
+                    />
+                  </a>
+                </div>
+                {/*  */}
+              </div>
+            </li>
+            <li>
+              {/* project 2 */}
+              <div className="project">
+                <div className="project__title">
+                  <a
+                    className="project__title-href"
+                    href="https://project-on-next-q8se.vercel.app/"
+                    target={'_blanc'}
+                  >
+                    Next.js app <br /> {t('next')}:{' '}
+                    <nobr>https://project-on-next-q8se.vercel.app/</nobr>
+                    <br />
+                    <br />
+                    <br />
+                    <img
+                      className="project__exemples4"
+                      width="700px"
+                      height="400px"
+                      alt="divise"
+                      src={require('./images/Screenshot_7.webp')}
                     />
                   </a>
                 </div>
@@ -78,7 +104,7 @@ const Projects = () => {
             </li>
 
             <li>
-              {/* project 2*/}
+              {/* project 3*/}
               <div className="project">
                 <div className="project__title">
                   <a
@@ -98,7 +124,7 @@ const Projects = () => {
                       width="700px"
                       height="400px"
                       alt="divise"
-                      src="https://user-images.githubusercontent.com/92175747/185310419-6dbe3061-ac66-497c-bb09-6661dc2a0d41.png"
+                      src={require('./images/Screenshot_2.webp')}
                     />
                   </a>
                   {/*  */}
@@ -106,7 +132,7 @@ const Projects = () => {
               </div>
             </li>
             <li>
-              {/* project 3 */}
+              {/* project 4 */}
               <div className="project">
                 <div className="project__title">
                   <a
@@ -126,7 +152,7 @@ const Projects = () => {
                       width="700px"
                       height="400px"
                       alt="divise"
-                      src="https://user-images.githubusercontent.com/92175747/185323337-badc4952-5955-47a1-b710-611e354fadf4.png"
+                      src={require('./images/Screenshot_3.webp')}
                     />
                   </a>
                 </div>
@@ -142,7 +168,7 @@ const Projects = () => {
             </li>
 
             <li>
-              {/* project 4 */}
+              {/* project 5 */}
               <div className="project">
                 <div className="project__title">
                   <a
@@ -162,7 +188,7 @@ const Projects = () => {
                       width="700px"
                       height="400px"
                       alt="divise"
-                      src="https://user-images.githubusercontent.com/92175747/185328638-b580e4a6-4ddf-4190-9bb8-8925bfe9e276.png"
+                      src={require('./images/Screenshot_4.webp')}
                     />
                   </a>
                 </div>
@@ -225,7 +251,35 @@ const Projects = () => {
                       width="700px"
                       height="400px"
                       alt="divise"
-                      src="https://user-images.githubusercontent.com/92175747/185324510-15243ee5-cfb6-49f3-a88b-18a654dbbc51.png"
+                      src={require('./images/Screenshot_5.webp')}
+                    />
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              {/* project 8 */}
+              <div className="project">
+                <div className="project__title">
+                  <a
+                    className="project__title-href"
+                    href="https://myroslav111.github.io/goit-react-hw-04-images/"
+                    target={'_blanc'}
+                  >
+                    Gallery by pure js <br /> {t('galleryJs')}:{' '}
+                    <nobr>
+                      https://myroslav111.github.io/goit-react-hw-04-images/
+                    </nobr>
+                    <br />
+                    <br />
+                    <br />
+                    <img
+                      className="project__exemples4"
+                      width="700px"
+                      height="400px"
+                      alt="divise"
+                      src={require('./images/Screenshot_8.webp')}
                     />
                   </a>
                 </div>
@@ -251,7 +305,7 @@ const Projects = () => {
                       width="700px"
                       height="400px"
                       alt="divise"
-                      src="https://user-images.githubusercontent.com/92175747/185320177-08e7573d-0907-4521-89e2-38b3fe181d50.png"
+                      src={require('./images/Screenshot_6.webp')}
                     />
                   </a>
                 </div>

@@ -44,11 +44,14 @@ const resources = {
       internet_phonebook:
         'App Phone Book with authorization.Stack React, react-router-dom, react-redux toolkit, ts, axios, react-transition, i18next',
       site_webstudio:
-        'Basic visit website (Service Advertising).Stack HTML, SCSS, js',
+        'Basic visit website. Layout example (Service Advertising).Stack HTML, SCSS, js',
       gallery:
         'Simple gallery (search by name on Pixabay API).Stack React, axios, react-transition-group, animation-css',
+      galleryJs:
+        'Simple gallery (search by name on Pixabay API).Stack js, axios, lazysizes, notiflix, handlebars, animation-css',
       site_rick:
         ' You can sort, filter, delete, and search by name characters from cartoon',
+      next: 'Project on Next.js',
 
       site_lang_school:
         'Add words for learning (here are can use two languages for learning). When you finished delete them. App with google authorization. There is a translator. App in progress',
@@ -93,14 +96,18 @@ const resources = {
         'Проект щодо пошуку фільмів і додавання улюблених фільмів до бібліотеки клієнта. Використання чистого JS, пакетів npm, API themoviedb.Стек HTML, SCSS, шаблони керма, iframe-you-tobe, mockAPI (як бек-енд), css анімації, нескінченна прокрутка для мобільних пристроїв',
       internet_phonebook:
         'Телефонна книга програми з авторизацією. Stack React, react-router-dom, react-redux toolkit, ts, axios, react-transition, i18next',
-      site_webstudio: 'Простий веб-сайт (реклама послуг). Стек HTML, SCSS, js',
+      site_webstudio:
+        'Простий веб-сайт приклад верстки (реклама послуг). Стек HTML, SCSS, js',
       gallery:
         'Проста галерея (пошук за назвою в Pixabay API).Стек React, axios, react-transition-group, animation-css',
+      galleryJs:
+        'Проста галерея (пошук за назвою в Pixabay API).Стек js, axios, lazysizes, notiflix, handlebars, animation-css',
       site_rick:
         'Ви можете сортувати, фільтрувати, видаляти, шукати за іменами героїв мультфільму',
       site_lang_school:
         'Додайте слова для вивчення (тут можна використовувати дві мови для вивчення). Коли ви закінчите, видаліть їх. Програма з авторизацією Google. Є перекладач. Програма в розробці',
       converter: 'Конвертер валют. Використаний navigator.geolocation',
+      next: 'Проект на Next.js ',
     },
   },
 };

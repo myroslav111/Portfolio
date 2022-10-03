@@ -43,8 +43,11 @@ const About = () => {
                   <Icon className="icon__about" icon="logos:javascript" />
                 </li>{' '}
                 <li className="skill__2">
-                  {t('i_use_frameworks')} React {t('and')} i18next&nbsp;&nbsp;
+                  {t('i_use_frameworks')} React, Next.js {t('and')}{' '}
+                  i18next&nbsp;&nbsp;
                   <Icon className="icon__about" icon="logos:react" />
+                  &nbsp;&nbsp;
+                  <Icon className="icon__about" icon="logos:nextjs-icon" />
                   &nbsp;&nbsp;
                   <Icon className="icon__about" icon="simple-icons:i18next" />
                 </li>
