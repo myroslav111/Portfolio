@@ -42,7 +42,11 @@
   transform: translate(-110%, 0px);
 }
 
-.list__skills li:first-child {
+// .list__skills li:first-child {
+//   margin-top: calc(10px + 5 * (100vw / 1440));
+// }
+
+.list__skills li {
   margin-top: calc(10px + 5 * (100vw / 1440));
 }
 

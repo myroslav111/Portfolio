@@ -52,6 +52,14 @@ const About = () => {
                   <Icon className="icon__about" icon="simple-icons:i18next" />
                 </li>
                 <li className="skill__3">
+                  {t('i_can_use')} Node.js {t('and')} MongoDB &nbsp;&nbsp;
+                  <Icon className="icon__about" icon="logos:nodejs" />
+                  &nbsp;&nbsp;
+                  <Icon className="icon__about" icon="logos:mongodb-icon" />
+                  &nbsp;&nbsp;
+                  {/* <Icon className="icon__about" icon="simple-icons:i18next" /> */}
+                </li>
+                <li className="skill__4">
                   {t('i_can_work_with')} Visual Studio Code, Figma&nbsp;&nbsp;
                   <Icon
                     className="icon__about"
@@ -60,11 +68,11 @@ const About = () => {
                   &nbsp;&nbsp;&nbsp;
                   <Icon className="icon__about" icon="logos:figma" />
                 </li>
-                <li className="skill__4">
+                <li className="skill__5">
                   {t('i_have_the_skills')} Git&nbsp;&nbsp;
                   <Icon className="icon__about" icon="fa6-brands:git-square" />
                 </li>
-                <li className="skill__5">
+                <li className="skill__6">
                   {t('i_can_use')} {t('pre-processor')} Sass {t('and')}{' '}
                   BEM&nbsp;
                   {t('methodology')}&nbsp;&nbsp;
@@ -72,7 +80,7 @@ const About = () => {
                   &nbsp;&nbsp;
                   <Icon className="icon__about" icon="file-icons:bem" />
                 </li>
-                <li className="skill__6">
+                <li className="skill__7">
                   {t('i_can_work_with')} SVG{' '}
                   {t('graphics_and_create_animations')}
                   &nbsp;&nbsp;
@@ -80,15 +88,15 @@ const About = () => {
                   &nbsp;&nbsp;
                   <Icon className="icon__about" icon="mdi:animation-play" />
                 </li>
-                <li className="skill__7">
+                <li className="skill__8">
                   {t('i_know')} {t('principles')} SEO&nbsp;&nbsp;
                   <Icon className="icon__about" icon="icon-park-outline:seo" />
                 </li>
-                <li className="skill__8">
+                <li className="skill__9">
                   {t('group_work')}&nbsp;&nbsp;
                   <Icon className="icon__about" icon="logos:microsoft-teams" />
                 </li>
-                <li className="skill__9">
+                <li className="skill__10">
                   {t('i_can_work_with')} TS REDUX&nbsp;&nbsp;
                   <Icon
                     className="icon__about"

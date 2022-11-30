@@ -10,6 +10,35 @@ const Projects = () => {
         <div className="projects__wrapper">
           <ol>
             <li>
+              {/* project 2 */}
+              <div className="project">
+                <div className="project__title">
+                  <a
+                    className="project__title-href"
+                    href="https://pets-app-client-side-ag5ofq52b-myroslav111.vercel.app"
+                    target={'_blanc'}
+                  >
+                    Pets-app-client <br /> {t('pets')}:{' '}
+                    <nobr>
+                      https://pets-app-client-side-ag5ofq52b-myroslav111.vercel.app
+                    </nobr>
+                    <br />
+                    <br />
+                    <br />
+                    <img
+                      className="project__exemples4"
+                      width="700px"
+                      height="400px"
+                      alt="divise"
+                      src={require('./images/Screenshot_10.png')}
+                    />
+                  </a>
+                </div>
+                {/*  */}
+              </div>
+            </li>
+
+            <li>
               {/* project 1 */}
               <div className="project">
                 <div className="project__title">

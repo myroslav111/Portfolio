@@ -56,6 +56,7 @@ const resources = {
       site_lang_school:
         'Add words for learning (here are can use two languages for learning). When you finished delete them. App with google authorization. There is a translator. App in progress',
       converter: 'Converter currenct. Used navigator.geolocation',
+      pets: 'The application solves the problem of finding or selling animals. Full stack aplication Front-End (react) Back-End (node.js, mongodb)',
     },
   },
   ua: {
@@ -108,6 +109,7 @@ const resources = {
         'Додайте слова для вивчення (тут можна використовувати дві мови для вивчення). Коли ви закінчите, видаліть їх. Програма з авторизацією Google. Є перекладач. Програма в розробці',
       converter: 'Конвертер валют. Використаний navigator.geolocation',
       next: 'Проект на Next.js ',
+      pets: 'Додаток вирішує завдання пошуку тварин. Додаток із повним стеком  Front-End (react) Back-End (node.js, mongodb)',
     },
   },
 };
