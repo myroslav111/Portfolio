@@ -37,6 +37,45 @@ const Projects = () => {
                 {/*  */}
               </div>
             </li>
+            <li>
+              {/* project 2 */}
+              <div className="project">
+                <div className="project__title">
+                  <a
+                    className="project__title-href"
+                    href="https://shop-phi-ruddy.vercel.app"
+                    target={'_blanc'}
+                  >
+                    Schop <br /> {t('shop')}:{' '}
+                    <nobr>https://shop-phi-ruddy.vercel.app</nobr>
+                    <br />
+                    <br />
+                    <br />
+                    <div
+                      className="project__exemples"
+                      style={{ display: 'flex', flexDirection: 'column' }}
+                    >
+                      <img
+                        className="project__exemples1"
+                        style={{ marginBottom: '10px' }}
+                        width="700px"
+                        height="400px"
+                        alt="divise"
+                        src={require('./images/Screenshot_11.png')}
+                      />
+                      <img
+                        className="project__exemples2"
+                        width="700px"
+                        height="400px"
+                        alt="divise"
+                        src={require('./images/Screenshot_12.png')}
+                      />
+                    </div>
+                  </a>
+                </div>
+                {/*  */}
+              </div>
+            </li>
 
             <li>
               {/* project 1 */}

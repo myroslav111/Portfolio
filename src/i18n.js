@@ -8,7 +8,7 @@ const resources = {
   en: {
     translation: {
       name: 'Kozar Myroslav',
-      specialization: 'Front-End developer / Back-End in progress',
+      specialization: 'Front-End js developer / Back-End node.js developer',
       about: 'About Me',
       sites: 'My Sites',
       en: 'EN',
@@ -36,6 +36,8 @@ const resources = {
       languages: 'Languages',
       ukrainian: 'Ukrainian',
       english: 'English',
+      de: 'Deutsch',
+      ru: 'Russian',
       hronometr: 'App for count how many time takes reading text',
       icecream:
         'Landing page of ice cream company (Responsive website)Stack: -HTML; -SCSS;-pure;-js; -parcel;Has: -slider -animation',
@@ -57,12 +59,13 @@ const resources = {
         'Add words for learning (here are can use two languages for learning). When you finished delete them. App with google authorization. There is a translator. App in progress',
       converter: 'Converter currenct. Used navigator.geolocation',
       pets: 'The application solves the problem of finding or selling animals. Full stack aplication Front-End (react) Back-End (node.js, mongodb)',
+      shop: 'eComerce. In the process of development, but many things are already working. Next.js/ts stack on node.js backend, mongo db database, photo on cloudinary. The front is placed on vercel, the back is on render',
     },
   },
   ua: {
     translation: {
       name: 'Козар Мирослав',
-      specialization: 'Фронт-Енд розробник / Бек-Енд в процессі вивчення',
+      specialization: 'Фронт-Енд розробник js / Бек-Енд розробник node.js',
       about: 'Про мене',
       sites: 'Мої проекти',
       en: 'Ан',
@@ -90,6 +93,8 @@ const resources = {
       languages: 'Мови',
       ukrainian: 'Українська',
       english: 'Англійська',
+      de: 'Німецька',
+      ru: 'Російска',
       hronometr: 'Додаток для підрахунку часу на читання тексту',
       icecream:
         'Лендінг (адаптивний). Stack: -HTML; -SCSS;-pure;-js; -parcel;Has: -slider -animation',
@@ -110,6 +115,7 @@ const resources = {
       converter: 'Конвертер валют. Використаний navigator.geolocation',
       next: 'Проект на Next.js ',
       pets: 'Додаток вирішує завдання пошуку тварин. Додаток із повним стеком  Front-End (react) Back-End (node.js, mongodb)',
+      shop: 'eComerce. В процессі розробки але багато чого вже працює. Стек next.js/ts на бекенді node.js база данних mongo db фото на cloudinary. Фронт розміщений на vercel, бек на render',
     },
   },
 };

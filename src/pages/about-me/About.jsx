@@ -17,7 +17,7 @@ const About = () => {
           </p>
           <div className="education">
             <h4 className="about__education">{t('education')}:</h4>
-            <div>2021 - present</div>
+            <div>2021 - 2022</div>
             <div>
               Front-end {t('development')} | <nobr>GO IT Academy &nbsp;</nobr>
               <Icon className="icon__about" icon="zondicons:education" />
@@ -125,6 +125,21 @@ const About = () => {
                   icon="emojione-v1:flag-for-united-kingdom"
                 />
               </li>
+              <li>
+                {t('de')}&nbsp;&nbsp;
+                <Icon
+                  className="icon__about"
+                  icon="emojione-v1:flag-for-germany"
+                />
+              </li>
+              <li>
+                {t('ru')}&nbsp;&nbsp;
+                <Icon
+                  className="icon__about"
+                  icon="emojione-v1:flag-for-russia"
+                />
+              </li>
+              {/* emojione-v1:flag-for-russia */}
             </ul>
           </div>
         </div>
