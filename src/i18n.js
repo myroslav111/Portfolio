@@ -59,7 +59,7 @@ const resources = {
         'Add words for learning (here are can use two languages for learning). When you finished delete them. App with google authorization. There is a translator. App in progress',
       converter: 'Converter currenct. Used navigator.geolocation',
       pets: 'The application solves the problem of finding or selling animals. Full stack aplication Front-End (react) Back-End (node.js, mongodb)',
-      shop: 'eComerce. In the process of development, but many things are already working. Next.js/ts stack on node.js backend, mongo db database, photo on cloudinary. The front is placed on vercel, the back is on render',
+      shop: 'eComerce. In the process of development, but many things are already working. There is mobil version. Next.js/ts stack on node.js backend, mongo db database, photo on cloudinary. The front is placed on vercel, the back is on render',
     },
   },
   ua: {
@@ -115,7 +115,7 @@ const resources = {
       converter: 'Конвертер валют. Використаний navigator.geolocation',
       next: 'Проект на Next.js ',
       pets: 'Додаток вирішує завдання пошуку тварин. Додаток із повним стеком  Front-End (react) Back-End (node.js, mongodb)',
-      shop: 'eComerce. В процессі розробки але багато чого вже працює. Стек next.js/ts на бекенді node.js база данних mongo db фото на cloudinary. Фронт розміщений на vercel, бек на render',
+      shop: 'eComerce. В процессі розробки але багато чого вже працює. Є мобільна версія. Стек next.js/ts на бекенді node.js база данних mongo db фото на cloudinary. Фронт розміщений на vercel, бек на render',
     },
   },
 };

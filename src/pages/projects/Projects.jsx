@@ -56,7 +56,7 @@ const Projects = () => {
                       style={{ display: 'flex', flexDirection: 'column' }}
                     >
                       <img
-                        className="project__exemples1"
+                        className="project__exemples4"
                         style={{ marginBottom: '10px' }}
                         width="700px"
                         height="400px"
@@ -64,7 +64,7 @@ const Projects = () => {
                         src={require('./images/Screenshot_11.png')}
                       />
                       <img
-                        className="project__exemples2"
+                        className="project__exemples4"
                         width="700px"
                         height="400px"
                         alt="divise"
